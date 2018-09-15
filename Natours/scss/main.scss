@@ -1,0 +1,65 @@
+@import "abstracts/functions.scss";
+@import "abstracts/mixins.scss";
+@import "abstracts/variables.scss";
+
+@import "base/animations.scss";
+@import "base/base.scss";
+@import "base/typography.scss";
+@import "base/utilities.scss";
+
+@import "components/button.scss";
+@import "components/composition.scss";
+
+@import "layout/header.scss";
+
+@import "pages/home.scss";
+
+@import "input/grid.scss";
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+
+@keyframes moveInLeft{
+    0%{
+       opacity: 0; 
+       transform: translateX(-100px);
+    }
+    
+    70%{
+        opacity:1;
+        transform: translateX(10px);
+    }
+    
+    100%{
+        opacity: 1;
+        transform:translate(0);
+    }
+}
+
+@keyframes moveInRight{
+    0%{
+       opacity: 0; 
+       transform: translateX(100px);
+    }
+    
+    70%{
+        opacity:1;
+        transform: translateX(-10px);
+    }
+    
+    100%{
+        opacity: 1;
+        transform:translate(0);
+    }
+}
+
+
+
+
+
